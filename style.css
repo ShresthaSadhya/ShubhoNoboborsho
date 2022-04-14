@@ -119,25 +119,10 @@ section .box .circle h1
     position:absolute;
     z-index: 2;
     color:crimson;
-	 -webkit-text-stroke: 0.2vw black;
+    -webkit-text-stroke: 0.2vw black;
     font-size: 3em;
     text-align: center;
-	  -webkit-text-stroke: 0vw black;
-     text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10px crimson,0px 0px 10px crimson;
-}
-h1::before
-{
-    content: attr(datatext);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width:0;
-    height:100%;
-    color:crimson;
-     -webkit-text-stroke: 0vw black;
-
-    overflow: hidden;
-    
+    text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 30px crimson,0px 0px 10px white;
 }
 
 
