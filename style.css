@@ -121,6 +121,7 @@ section .box .circle h1
     color:crimson;
     font-size: 3em;
     text-align: center;
+	  -webkit-text-stroke: 0vw black;
      text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 30px white,0px 0px 10px crimson,0px 0px 10px crimson;
 }
 
